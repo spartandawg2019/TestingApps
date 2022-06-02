@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14EAB73284944590077F42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB72284944590077F42F /* AppDelegate.swift */; };
+		F14EAB75284944590077F42F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB74284944590077F42F /* GameViewController.swift */; };
+		F14EAB78284944590077F42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB76284944590077F42F /* Main.storyboard */; };
+		F14EAB7B284944590077F42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB79284944590077F42F /* LaunchScreen.storyboard */; };
+		F14EAB7F284944590077F42F /* RepoDemo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F14EAB7E284944590077F42F /* RepoDemo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F14EAB85284944590077F42F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB83284944590077F42F /* Interface.storyboard */; };
+		F14EAB8B284944590077F42F /* RepoDemo Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F14EAB8A284944590077F42F /* RepoDemo Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F14EAB90284944590077F42F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB8F284944590077F42F /* InterfaceController.swift */; };
+		F14EAB92284944590077F42F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB91284944590077F42F /* ExtensionDelegate.swift */; };
+		F14EAB9B284944590077F42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB9A284944590077F42F /* AppDelegate.swift */; };
+		F14EAB9D284944590077F42F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB9C284944590077F42F /* GameViewController.swift */; };
+		F14EABA0284944590077F42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB9E284944590077F42F /* Main.storyboard */; };
+		F14EABA3284944590077F42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EABA1284944590077F42F /* LaunchScreen.storyboard */; };
+		F14EABAB284944590077F42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EABAA284944590077F42F /* AppDelegate.swift */; };
+		F14EABAD284944590077F42F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EABAC284944590077F42F /* GameViewController.swift */; };
+		F14EABB0284944590077F42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EABAE284944590077F42F /* Main.storyboard */; };
+		F14EABB2284944590077F42F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB67284944550077F42F /* Actions.sks */; };
+		F14EABB3284944590077F42F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB67284944550077F42F /* Actions.sks */; };
+		F14EABB4284944590077F42F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB67284944550077F42F /* Actions.sks */; };
+		F14EABB5284944590077F42F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB68284944550077F42F /* GameScene.sks */; };
+		F14EABB6284944590077F42F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB68284944550077F42F /* GameScene.sks */; };
+		F14EABB7284944590077F42F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB68284944550077F42F /* GameScene.sks */; };
+		F14EABB8284944590077F42F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB68284944550077F42F /* GameScene.sks */; };
+		F14EABB9284944590077F42F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB69284944550077F42F /* GameScene.swift */; };
+		F14EABBA284944590077F42F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB69284944550077F42F /* GameScene.swift */; };
+		F14EABBB284944590077F42F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB69284944550077F42F /* GameScene.swift */; };
+		F14EABBC284944590077F42F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EAB69284944550077F42F /* GameScene.swift */; };
+		F14EABBD284944590077F42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB6A284944590077F42F /* Assets.xcassets */; };
+		F14EABBE284944590077F42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB6A284944590077F42F /* Assets.xcassets */; };
+		F14EABBF284944590077F42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB6A284944590077F42F /* Assets.xcassets */; };
+		F14EABC0284944590077F42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14EAB6A284944590077F42F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F14EAB80284944590077F42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14EAB62284944550077F42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14EAB7D284944590077F42F;
+			remoteInfo = "RepoDemo watchOS App";
+		};
+		F14EAB8C284944590077F42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14EAB62284944550077F42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14EAB89284944590077F42F;
+			remoteInfo = "RepoDemo watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F14EABC6284944590077F42F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F14EAB8B284944590077F42F /* RepoDemo Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EABCA284944590077F42F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F14EAB7F284944590077F42F /* RepoDemo.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F14EAB67284944550077F42F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F14EAB68284944550077F42F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F14EAB69284944550077F42F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F14EAB6A284944590077F42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14EAB6F284944590077F42F /* RepoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EAB72284944590077F42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F14EAB74284944590077F42F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F14EAB77284944590077F42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F14EAB7A284944590077F42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14EAB7E284944590077F42F /* RepoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EAB84284944590077F42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F14EAB8A284944590077F42F /* RepoDemo Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RepoDemo Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EAB8F284944590077F42F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F14EAB91284944590077F42F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F14EAB93284944590077F42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14EAB98284944590077F42F /* RepoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EAB9A284944590077F42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F14EAB9C284944590077F42F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F14EAB9F284944590077F42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F14EABA2284944590077F42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14EABA8284944590077F42F /* RepoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EABAA284944590077F42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F14EABAC284944590077F42F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F14EABAF284944590077F42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F14EABB1284944590077F42F /* RepoDemo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RepoDemo_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14EAB6C284944590077F42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB87284944590077F42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB95284944590077F42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EABA5284944590077F42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F14EAB61284944550077F42F = {
+			isa = PBXGroup;
+			children = (
+				F14EAB66284944550077F42F /* RepoDemo Shared */,
+				F14EAB71284944590077F42F /* RepoDemo iOS */,
+				F14EAB82284944590077F42F /* RepoDemo watchOS App */,
+				F14EAB8E284944590077F42F /* RepoDemo watchOS App Extension */,
+				F14EAB99284944590077F42F /* RepoDemo tvOS */,
+				F14EABA9284944590077F42F /* RepoDemo macOS */,
+				F14EAB70284944590077F42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F14EAB66284944550077F42F /* RepoDemo Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F14EAB67284944550077F42F /* Actions.sks */,
+				F14EAB68284944550077F42F /* GameScene.sks */,
+				F14EAB69284944550077F42F /* GameScene.swift */,
+				F14EAB6A284944590077F42F /* Assets.xcassets */,
+			);
+			path = "RepoDemo Shared";
+			sourceTree = "<group>";
+		};
+		F14EAB70284944590077F42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14EAB6F284944590077F42F /* RepoDemo.app */,
+				F14EAB7E284944590077F42F /* RepoDemo.app */,
+				F14EAB8A284944590077F42F /* RepoDemo Extension.appex */,
+				F14EAB98284944590077F42F /* RepoDemo.app */,
+				F14EABA8284944590077F42F /* RepoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14EAB71284944590077F42F /* RepoDemo iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F14EAB72284944590077F42F /* AppDelegate.swift */,
+				F14EAB74284944590077F42F /* GameViewController.swift */,
+				F14EAB76284944590077F42F /* Main.storyboard */,
+				F14EAB79284944590077F42F /* LaunchScreen.storyboard */,
+			);
+			path = "RepoDemo iOS";
+			sourceTree = "<group>";
+		};
+		F14EAB82284944590077F42F /* RepoDemo watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				F14EAB83284944590077F42F /* Interface.storyboard */,
+			);
+			path = "RepoDemo watchOS App";
+			sourceTree = "<group>";
+		};
+		F14EAB8E284944590077F42F /* RepoDemo watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F14EAB8F284944590077F42F /* InterfaceController.swift */,
+				F14EAB91284944590077F42F /* ExtensionDelegate.swift */,
+				F14EAB93284944590077F42F /* Info.plist */,
+			);
+			path = "RepoDemo watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		F14EAB99284944590077F42F /* RepoDemo tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F14EAB9A284944590077F42F /* AppDelegate.swift */,
+				F14EAB9C284944590077F42F /* GameViewController.swift */,
+				F14EAB9E284944590077F42F /* Main.storyboard */,
+				F14EABA1284944590077F42F /* LaunchScreen.storyboard */,
+			);
+			path = "RepoDemo tvOS";
+			sourceTree = "<group>";
+		};
+		F14EABA9284944590077F42F /* RepoDemo macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F14EABAA284944590077F42F /* AppDelegate.swift */,
+				F14EABAC284944590077F42F /* GameViewController.swift */,
+				F14EABAE284944590077F42F /* Main.storyboard */,
+				F14EABB1284944590077F42F /* RepoDemo_macOS.entitlements */,
+			);
+			path = "RepoDemo macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F14EAB6E284944590077F42F /* RepoDemo iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EABCB284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo iOS" */;
+			buildPhases = (
+				F14EAB6B284944590077F42F /* Sources */,
+				F14EAB6C284944590077F42F /* Frameworks */,
+				F14EAB6D284944590077F42F /* Resources */,
+				F14EABCA284944590077F42F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14EAB81284944590077F42F /* PBXTargetDependency */,
+			);
+			name = "RepoDemo iOS";
+			productName = "RepoDemo iOS";
+			productReference = F14EAB6F284944590077F42F /* RepoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14EAB7D284944590077F42F /* RepoDemo watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EABC7284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo watchOS App" */;
+			buildPhases = (
+				F14EAB7C284944590077F42F /* Resources */,
+				F14EABC6284944590077F42F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14EAB8D284944590077F42F /* PBXTargetDependency */,
+			);
+			name = "RepoDemo watchOS App";
+			productName = "RepoDemo watchOS App";
+			productReference = F14EAB7E284944590077F42F /* RepoDemo.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F14EAB89284944590077F42F /* RepoDemo watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EABC3284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo watchOS App Extension" */;
+			buildPhases = (
+				F14EAB86284944590077F42F /* Sources */,
+				F14EAB87284944590077F42F /* Frameworks */,
+				F14EAB88284944590077F42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RepoDemo watchOS App Extension";
+			productName = "RepoDemo watchOS App Extension";
+			productReference = F14EAB8A284944590077F42F /* RepoDemo Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		F14EAB97284944590077F42F /* RepoDemo tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EABCE284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo tvOS" */;
+			buildPhases = (
+				F14EAB94284944590077F42F /* Sources */,
+				F14EAB95284944590077F42F /* Frameworks */,
+				F14EAB96284944590077F42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RepoDemo tvOS";
+			productName = "RepoDemo tvOS";
+			productReference = F14EAB98284944590077F42F /* RepoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14EABA7284944590077F42F /* RepoDemo macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EABD1284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo macOS" */;
+			buildPhases = (
+				F14EABA4284944590077F42F /* Sources */,
+				F14EABA5284944590077F42F /* Frameworks */,
+				F14EABA6284944590077F42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RepoDemo macOS";
+			productName = "RepoDemo macOS";
+			productReference = F14EABA8284944590077F42F /* RepoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14EAB62284944550077F42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F14EAB6E284944590077F42F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F14EAB7D284944590077F42F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F14EAB89284944590077F42F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F14EAB97284944590077F42F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					F14EABA7284944590077F42F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = F14EAB65284944550077F42F /* Build configuration list for PBXProject "RepoDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14EAB61284944550077F42F;
+			productRefGroup = F14EAB70284944590077F42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14EAB6E284944590077F42F /* RepoDemo iOS */,
+				F14EAB7D284944590077F42F /* RepoDemo watchOS App */,
+				F14EAB89284944590077F42F /* RepoDemo watchOS App Extension */,
+				F14EAB97284944590077F42F /* RepoDemo tvOS */,
+				F14EABA7284944590077F42F /* RepoDemo macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F14EAB6D284944590077F42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABB5284944590077F42F /* GameScene.sks in Resources */,
+				F14EAB78284944590077F42F /* Main.storyboard in Resources */,
+				F14EABB2284944590077F42F /* Actions.sks in Resources */,
+				F14EAB7B284944590077F42F /* LaunchScreen.storyboard in Resources */,
+				F14EABBD284944590077F42F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB7C284944590077F42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABBE284944590077F42F /* Assets.xcassets in Resources */,
+				F14EAB85284944590077F42F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB88284944590077F42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABB6284944590077F42F /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB96284944590077F42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABB7284944590077F42F /* GameScene.sks in Resources */,
+				F14EABA0284944590077F42F /* Main.storyboard in Resources */,
+				F14EABB3284944590077F42F /* Actions.sks in Resources */,
+				F14EABA3284944590077F42F /* LaunchScreen.storyboard in Resources */,
+				F14EABBF284944590077F42F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EABA6284944590077F42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABB0284944590077F42F /* Main.storyboard in Resources */,
+				F14EABB8284944590077F42F /* GameScene.sks in Resources */,
+				F14EABC0284944590077F42F /* Assets.xcassets in Resources */,
+				F14EABB4284944590077F42F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14EAB6B284944590077F42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABB9284944590077F42F /* GameScene.swift in Sources */,
+				F14EAB75284944590077F42F /* GameViewController.swift in Sources */,
+				F14EAB73284944590077F42F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB86284944590077F42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABBA284944590077F42F /* GameScene.swift in Sources */,
+				F14EAB92284944590077F42F /* ExtensionDelegate.swift in Sources */,
+				F14EAB90284944590077F42F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EAB94284944590077F42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABBB284944590077F42F /* GameScene.swift in Sources */,
+				F14EAB9D284944590077F42F /* GameViewController.swift in Sources */,
+				F14EAB9B284944590077F42F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EABA4284944590077F42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EABBC284944590077F42F /* GameScene.swift in Sources */,
+				F14EABAD284944590077F42F /* GameViewController.swift in Sources */,
+				F14EABAB284944590077F42F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F14EAB81284944590077F42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14EAB7D284944590077F42F /* RepoDemo watchOS App */;
+			targetProxy = F14EAB80284944590077F42F /* PBXContainerItemProxy */;
+		};
+		F14EAB8D284944590077F42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14EAB89284944590077F42F /* RepoDemo watchOS App Extension */;
+			targetProxy = F14EAB8C284944590077F42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F14EAB76284944590077F42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EAB77284944590077F42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F14EAB79284944590077F42F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EAB7A284944590077F42F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F14EAB83284944590077F42F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EAB84284944590077F42F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		F14EAB9E284944590077F42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EAB9F284944590077F42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F14EABA1284944590077F42F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EABA2284944590077F42F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F14EABAE284944590077F42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EABAF284944590077F42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F14EABC1284944590077F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F14EABC2284944590077F42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F14EABC4284944590077F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RepoDemo watchOS App Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RepoDemo watchOS App Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "RepoDemo Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		F14EABC5284944590077F42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RepoDemo watchOS App Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RepoDemo watchOS App Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "RepoDemo Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		F14EABC8284944590077F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RepoDemo_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = RepoDemo;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.academy.RepoDemo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo.watchkitapp;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		F14EABC9284944590077F42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RepoDemo_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = RepoDemo;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.academy.RepoDemo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo.watchkitapp;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		F14EABCC284944590077F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F14EABCD284944590077F42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14EABCF284944590077F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		F14EABD0284944590077F42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14EABD2284944590077F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RepoDemo macOS/RepoDemo_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F14EABD3284944590077F42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RepoDemo macOS/RepoDemo_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN4UGBHRZN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.RepoDemo;
+				PRODUCT_NAME = RepoDemo;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14EAB65284944550077F42F /* Build configuration list for PBXProject "RepoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EABC1284944590077F42F /* Debug */,
+				F14EABC2284944590077F42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14EABC3284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EABC4284944590077F42F /* Debug */,
+				F14EABC5284944590077F42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14EABC7284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EABC8284944590077F42F /* Debug */,
+				F14EABC9284944590077F42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14EABCB284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EABCC284944590077F42F /* Debug */,
+				F14EABCD284944590077F42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14EABCE284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EABCF284944590077F42F /* Debug */,
+				F14EABD0284944590077F42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14EABD1284944590077F42F /* Build configuration list for PBXNativeTarget "RepoDemo macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EABD2284944590077F42F /* Debug */,
+				F14EABD3284944590077F42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14EAB62284944550077F42F /* Project object */;
+}
